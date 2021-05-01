@@ -1,13 +1,20 @@
 ﻿using CryptoPriceBot;
 using CryptoPriceBot.Analyzers;
+using CryptoPriceBot.Notifications;
 using System;
 
 Console.WriteLine("Starting bot...");
 
 var manager = new BinanceWebSocketManager(new()
 {
-    new PriceAboveAnalyzer("BTCUSDT", 56624),
-    new PriceAboveAnalyzer("ETHUSDT", 2447)
+    new PriceAboveAnalyzer("BTCUSDT", 55300, new()
+    {
+        new SmtpEmailNotificationService("my-email@outlook.com")
+    }),
+    new PriceAboveAnalyzer("ETHUSDT", 2529, new()
+    {
+        new SmtpEmailNotificationService("my-email@outlook.com")
+    })
 });
 
 // Try connecting and subscribing for updates for Bitcoin price updates
