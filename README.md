@@ -1,5 +1,5 @@
 ﻿# CryptoPriceBot - Blog Post Source Code
-This is the source code for the blog post [Creating a Cryptocurrency Price Bot in .NET 5 (Core)](https://ramstad.io/2021/04/22/Creating-a-Cryptocurrency-Price-Bot-in-NET-5-CORE/).
+This is the source code for the blog post [Creating a Cryptocurrency Price Bot in .NET 5 (Core)](https://www.ramstad.io/2021/04/22/Creating-a-Cryptocurrency-Price-Bot-in-NET-5-CORE/).
 
 ## Prerequisites
 Make sure that you have an environment setup to run [.NET 5 (Core)](https://dot.net), such as [Visual Studio 2019](https://visualstudio.microsoft.com/vs/), [JetBrains Rider](https://www.jetbrains.com/rider/), or just [Visual Studio Code](https://code.visualstudio.com/) with the [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) installed.
