@@ -11,6 +11,7 @@ You should also update Program.cs with more current prices for both Bitcon (BTC)
 
 ## Extending the application
 Use the `IPriceAnalyzer` interface to create new analyzers, this could for example be a `PriceBelowAnalyzer` that notifies the user when the price dips below a certain threshold and its implementation would be similar to the `PriceAboveAnalyzer`.
+
 Likewise use the `INotificationService` interface to create other methods of being notified, for example this could be via SMS using [twilio](https://www.twilio.com/sms).
 
 Enjoy!
